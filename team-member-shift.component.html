@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-lg-8">
+    <div class="card card-custom gutter-b">
+      <div class="card-body">
+        <full-calendar
+          #fullCalendar
+          [options]="calendarOptions"
+        ></full-calendar>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="card card-custom card-stretch gutter-b">
+      <!-- Header -->
+      <div class="card-header align-items-center border-0 mt-4">
+        <h3 class="card-title align-items-start flex-column">
+          <span class="font-weight-bolder text-dark"></span>
+          <span class="text-muted mt-3 font-weight-bold font-size-sm"> </span>
+        </h3>
+      </div>
+
+      <!-- <div class="card-body pt-0 ">
+                <div  class="timeline timeline-6 mt-3">
+                    <app-calendar-activity-of-task *ngFor="let r of tasks" [taskData]="r">
+                    </app-calendar-activity-of-task>
+
+                </div>
+
+                
+
+            </div> -->
+    </div>
+  </div>
+</div>
